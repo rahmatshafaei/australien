@@ -3,23 +3,10 @@
     padding: 0;
 }
 
-}
-.top{
+#top{
     width: 100%;
     height: 15vh;
     background-size: auto;   
-}
-.middle{
-    width: 100%;
-    height: 75vh;
-    background-size: auto; 
-
-}
-
-.buttom{
-    width: 100%;
-    height: 10vh;
-    background-size: auto; 
 }
 nav{
     padding-top: 30px;
