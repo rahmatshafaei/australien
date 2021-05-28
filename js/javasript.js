@@ -1,1 +1,1 @@
-document.getElementsByTagName("img")[0].src="img/bild2.jpg";
+document.getElementsByTagName("img")[0].src="img/bild1.jpg";
