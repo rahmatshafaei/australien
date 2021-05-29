@@ -10,7 +10,6 @@
     overflow: scroll;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: relative;
 
 }
 nav{
@@ -49,4 +48,24 @@ h1{
 }
 #audio{
     padding-top: 37%;
+}
+#effect{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    margin-top: 50%;
+    display: flex;
+}
+#Rubrik2{
+display: inline;
+color: black;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p{
+color: black;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: left;
+display: inline;
 }
