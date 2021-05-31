@@ -2,6 +2,12 @@
 *{margin: 0;
 padding: 0;}
 
+#head{
+    color: white;
+    font-family:Georgia, Geneva, Tahoma, sans-serif;
+    line-height: 1,5;
+    text-align: center;
+}
 .head{
     color: white;
     font-family:Georgia, Geneva, Tahoma, sans-serif;
