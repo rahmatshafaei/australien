@@ -6,17 +6,30 @@
 <link rel="stylesheet" href="css/Sights.css">
     </head>
     <body>
-        <P id="id2" onMouseOver="highlight()">Hello World Hello HEllo <span id="id1"> 141 det bara gees </span></P>
-        <img id="id1" src="img/bildsight.jpg" alt="bild">
-    
-        <input type="button" onclick="bilder()" value="ändra bilder">
-        <script>
-     var imag =  document.getElementById("id1")
-     function bilder()
-     {
-      var rnd= Math.floor(Math.random() * 4); 
-     document.getElementById().src= imag[rnd];
-     }
-     </script>
+        <P id="id2" onMouseOver="highlight()">Hello World Hello HEllo <span id="id99"> 141 det bara gees </span></P>
+        <img id="id1" src="img/1.jpg" alt="bild">
+     <div id="id90"></div>
+      <div id="text">
+        <h3>Sydney opera house:</h3>
+        <p>The Sydney opera house is one of  the most photographed buildings in the world,known for its unique  roof  series structure that uses a series of shiny white sail shaped shells. The iconic performing arts  facility is Sydney's most famous landmark. 
+            Today the opera house is Australia's number one tourist destination. The opera house welcomes more than 8.2 miljons visitors a year and is one of the world's busiest arts centers. The sydney opera house is home for the first nation’s arts and culture,talks and ideas, theater and dance and the superstars of classic and contemporary music. The opera house is not only for artists' taste in all arts forms but also scientific research into and inspiration for new and improved forms of interest and methods of presentation.  </p>
+    <br>
+   <h3>Uluru</h3>
+   <p> Uluru or Ayers Rock as it is also called, is Australia's most famous natural landmark.Uluru is most known as Ayers Rock and it was named by William Gosse in 1873 after Sir Henry Ayers. Uluru is the officiel Aboriginal name of the mountain. The mountain was created for about 600 million years ago and the Aborigines have lived there for over 10000 years. Ayers Rock was originally located at the bottom of the sea, but today the mountain stands 863 meter above sea level and 348 meters above the ground. The Ayers Rock is longer than several  famous buildings around the world including the Eiffel tower in Paris and Chrysler building in New York.</p>
+    <br>
+ </div>
+</div>
+<script>
+
+
+    function changePic(){
+        var raNd= Math.floor(Math.random() * 4 +1);
+        var bilD ="img/" + raNd + ".jpg";
+        document.getElementById("id1").src = bilD;
+        console.log(bilD);
+        setTimeout(changePic, 3000);
+    }
+    setTimeout(changePic, 3000);
+</script>
     </body>
 </html>
