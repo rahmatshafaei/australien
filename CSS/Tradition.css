@@ -1,14 +1,16 @@
+/* redigerat av Rahmat*/
 *{margin: 0;
 padding: 0;}
+
 .head{
-    line-height: 1,6;
     color: white;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family:Georgia, Geneva, Tahoma, sans-serif;
+    line-height: 1,5;
 }
 .p{
-    line-height: 1,6;
     color: white;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    line-height: 1,5;
 }
 #top{
     width:100%;
