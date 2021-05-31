@@ -34,7 +34,7 @@ h1{
     text-align: center;
 }
 #audio{
-    padding-top: 40%;
+    padding-top: 15%;
 }
 #effect{
     background-color: white;
@@ -51,6 +51,29 @@ text-align: center;
 }
 #p{
 color: black;
-font-size: 20px;
+font-size: 16px;
 font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.7;
+}
+#country{
+font-family: fantasy;
+font-size: 60px;
+margin: 10%;
+color: black;
+}
+#country:hover{
+    font-family: fantasy;
+    font-size: 60px;
+    margin: 10%;
+    color:white;
+}
+#Rubrik2{
+    font-family:fantasy;
+    font-size: 40px;
+    color: black;   
+}
+#Rubrik2:hover{
+    font-family:fantasy;
+    font-size: 40px;
+    color: black;   
 }
