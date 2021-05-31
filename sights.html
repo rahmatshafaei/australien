@@ -6,8 +6,17 @@
 <link rel="stylesheet" href="css/Sights.css">
     </head>
     <body>
-        <a href="Index.html">
-            <button id="btn">Home Page</button>
-          </a>
+        <P id="id2" onMouseOver="highlight()">Hello World Hello HEllo <span id="id1"> 141 det bara gees </span></P>
+        <img id="id1" src="img/bildsight.jpg" alt="bild">
+    
+        <input type="button" onclick="bilder()" value="ändra bilder">
+        <script>
+     var imag =  document.getElementById("id1")
+     function bilder()
+     {
+      var rnd= Math.floor(Math.random() * 4); 
+     document.getElementById().src= imag[rnd];
+     }
+     </script>
     </body>
 </html>

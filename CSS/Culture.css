@@ -5,7 +5,7 @@
 }
 nav{
     padding: 30px;
-    text-align: right;
+    text-align: left;
 }
 #btn{
     position: absolute;
@@ -18,9 +18,23 @@ nav{
     background-color: white;
     font-family: cursive;
 }
+#btn{
+    position: absolute;
+    left: 47%;
+    bottom: 5%;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: white;
+    font-family: cursive;
+}
+#btn:hover{
+   background-color: lightgreen;
+}
 #bild{
-    background-image: url(img/bild2.jpg);
-width: 100%;
+float: left;
+width: 30%;
 margin-left: 70px;
 }
 #image{
@@ -42,4 +56,5 @@ margin-left: 70px;
 }
 #text{
     width: 50%;
+    float: left;
 }
