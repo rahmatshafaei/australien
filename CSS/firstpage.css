@@ -56,12 +56,14 @@ font-family: fantasy;
 font-size: 60px;
 margin: 10%;
 color: black;
+text-align: center;
 }
 #country:hover{
     font-family: fantasy;
     font-size: 60px;
     margin: 10%;
     color:white;
+    text-align: center;
 }
 #Rubrik2{
     font-family:fantasy;
