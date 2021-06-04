@@ -74,10 +74,21 @@ margin-left: 70px;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+#btn{
+    position: absolute;
+    left: 47%;
+    bottom: 5%;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: white;
+    font-family: cursive;
+}
 #btn:hover{
    background-color: lightgreen;
 }
-
 #text{
     width: 50%;
     float: left;
